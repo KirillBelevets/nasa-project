@@ -1,0 +1,23 @@
+{
+  "name": "nasa-project-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "watch": "nodemon src/server.js",
+    "test": "node --test",
+    "test-watch": "node --test --watch",
+    "start": "PORT=5000 nodemon src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "NASA Mission control API",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "csv-parse": "^5.6.0",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
